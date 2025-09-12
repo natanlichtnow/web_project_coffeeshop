@@ -24,18 +24,20 @@
     <div class="page">
       <header class="header">
         <nav class="header__nav">
-          <a href="#" class="nav__logo"
+          <a href="#" class="header__nav-logo"
             ><img src="/images/logo_coffeeshop_dark.svg" alt="logo do café"
           /></a>
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#recipes" class="nav__link">Receitas</a>
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#recipes" class="header__nav-link">Receitas</a>
             </li>
-            <li class="nav__item">
-              <a href="#reservation" class="nav__link">Reservar uma mesa</a>
+            <li class="header__nav-item">
+              <a href="#reservation" class="header__nav-link"
+                >Reservar uma mesa</a
+              >
             </li>
-            <li class="nav__item">
-              <a href="#contacts" class="nav__link">Contatos</a>
+            <li class="header__nav-item">
+              <a href="#contacts" class="header__nav-link">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -53,12 +55,11 @@
           alt="dentro do café"
         />
         <div class="header__footer">
-          <p>
-            Horários:<br />Segunda a sexta (10:00 – 19:00)<br />
-            Sábado a domingo (11:00 - 18:00)
-          </p>
+          <p class="header__paragraph">Horários:</p>
+          <p class="header__paragraph">Segunda a sexta (10:00 – 19:00)</p>
+          <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
         </div>
-        <p class="header__paragraph-adress">
+        <p class="header__paragraph header__paragraph-adress">
           200 Success Avenue, a cidade de Triple Peaks
         </p>
       </header>
@@ -79,6 +80,7 @@
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen
+                  class="recipes__iframe"
                 ></iframe>
                 <div class="recipes__video-caption">
                   <p>Receita Aeropress</p>
@@ -94,6 +96,7 @@
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen
+                  class="recipes__iframe"
                 ></iframe>
                 <div class="recipes__video-caption">
                   <p>Receita de Prensa Francesa</p>

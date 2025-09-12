@@ -35,14 +35,14 @@ html {
   line-height: 20px;
 }
 
-.nav__logo {
+.header__nav-logo {
   height: 39px;
   width: 105px;
   position: relative;
   top: 30px;
   left: 30px;
 }
-.nav__list {
+.header__nav-list {
   display: flex;
   gap: 20px;
   list-style: none;
@@ -52,12 +52,12 @@ html {
   top: 30px;
   right: 80px;
 }
-.nav__link {
+.header__nav-link {
   text-decoration: none;
   color: #000000;
   font-weight: 500;
 }
-.nav__link:hover {
+.header__nav-link:hover {
   color: #054fa3;
 }
 
@@ -116,6 +116,11 @@ html {
   position: absolute;
   bottom: 40px;
   left: 80px;
+}
+
+.header__paragraph {
+  margin: 0;
+  padding: 0;
 }
 
 .header__paragraph-adress {
