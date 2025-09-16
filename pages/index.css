@@ -218,6 +218,8 @@ html {
   font-size: 44px;
   line-height: 52px;
   position: relative;
+}
+.reservation__title-margin {
   margin-top: 100px;
   margin-bottom: 80px;
 }
