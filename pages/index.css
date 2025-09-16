@@ -52,7 +52,7 @@ html {
   top: 30px;
   right: 80px;
 }
-.header__nav-link {
+.nav__link {
   text-decoration: none;
   color: #000000;
   font-weight: 500;
