@@ -218,9 +218,9 @@ html {
   font-size: 44px;
   line-height: 52px;
   position: relative;
-  margin-top: 100px auto 80px auto;
 }
-.reservation__title-margin {
+.reservation__title_margin {
+  margin: 100px auto 80px auto;
 }
 
 .reservation__form {
